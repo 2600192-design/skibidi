@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#151824" />
+    <meta
+      name="description"
+      content="Enter Wisteria Valley. A multiplayer sword adventure beneath a moonlit sky."
+    />
+    <title>Moonveil Chronicles — The night is yours</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="importmap">
+      { "imports": { "three": "/vendor/three/three.module.js" } }
+    </script>
+  </head>
+  <body>
+    <div id="game" aria-label="3D Wisteria Valley"></div>
+    <div id="scene-loading">
+      <span class="loading-moon"></span><span>Entering Wisteria Valley</span>
+    </div>
+    <div id="ui"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/game.js"></script>
+  </body>
+</html>
