@@ -6,8 +6,9 @@ A playable, Japanese fantasy sword RPG inspired by anime demon hunting. Explore 
 
 Requires Node.js 22 or newer and a modern desktop browser with WebGL2 and hardware acceleration.
 
+Download this repository using GitHub's **Code → Download ZIP**, then extract it. Open a terminal in the extracted `skibidi-main` folder (or the project folder if you obtained it another way) and run:
+
 ```sh
-cd moonveil-chronicles
 npm ci
 npm start
 ```
